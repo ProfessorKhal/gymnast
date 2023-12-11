@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Settings */
+@import "./settings/colors.css";
+
+/* Modules */
+@import "./modules/header.module.css";
+@import "./modules/button.module.css";
+@import "./modules/hero.module.css";
+
+html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--web-background);
+      color:var(--web-foreground);
+      font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+}
+
+a {
+      text-decoration: inherit;
+}

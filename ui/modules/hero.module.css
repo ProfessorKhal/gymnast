@@ -1,0 +1,11 @@
+.hero {
+      width:100%;
+      padding:0 40px;
+
+}
+
+.hero > .hero-container {
+      padding: 30px;
+      background:var(--accent-1);
+      border-radius: 10px;
+}

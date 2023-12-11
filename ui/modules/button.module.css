@@ -1,0 +1,32 @@
+.default-button {
+      background:var(--accent-1);
+      color:var(--web-background);
+      border:1px solid var(--accent-1);
+      cursor: pointer;
+      outline:none;
+      font-size:20px;
+      padding: 10px 16px;
+      border-radius:10px;
+      transition:0.1s ease-in-out;
+}
+
+.default-button:hover {
+      background:var(--web-background);
+      color:var(--accent-1);
+}
+
+.ghost-button {
+      background:transparent;
+      color:var(--web-foreground);
+      border: 1px solid transparent;
+      cursor: pointer;
+      outline:none;
+      font-size:20px;
+      padding: 10px 16px;
+      border-radius:10px;
+      transition:0.1s ease-in-out;
+}
+
+.ghost-button:hover {
+      background: var(--ash);
+}
