@@ -7,6 +7,7 @@
 @import "./modules/header.module.css";
 @import "./modules/button.module.css";
 @import "./modules/hero.module.css";
+@import "./modules/pricing.module.css";
 
 html, body {
       margin: 0;
