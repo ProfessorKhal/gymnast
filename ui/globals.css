@@ -8,6 +8,9 @@
 @import "./modules/button.module.css";
 @import "./modules/hero.module.css";
 @import "./modules/pricing.module.css";
+@import "./modules/contact.module.css";
+@import "./modules/about.module.css";
+@import "./modules/schedule.modules.css";
 
 html, body {
       margin: 0;

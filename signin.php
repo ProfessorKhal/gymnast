@@ -10,7 +10,6 @@
     // Check if the form is submitted
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       // Retrieve form data
-      $name = $_POST["name"];
       $email = $_POST["email"];
       $password = $_POST["password"];
       $rememberMe = isset($_POST["rememberMe"]) ? "Yes" : "No";
